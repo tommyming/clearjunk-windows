@@ -1,5 +1,5 @@
 @echo off
-echo •ø¶b≤M∞£®t≤Œ©Uß£§Â•Û°AΩ–µyµ•......
+echo Now start to delete the junk......
 del /f /s /q %systemdrive%\*.tmp
 del /f /s /q %systemdrive%\*._mp
 del /f /s /q %systemdrive%\*.log
@@ -15,5 +15,5 @@ del /f /q %userprofile%\recent\*.*
 del /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
 del /f /s /q "%userprofile%\Local Settings\Temp\*.*"
 del /f /s /q "%userprofile%\recent\*.*"
-echo ≤M∞£®t≤Œ©Uß£ßπ¶®°I
+echo Junk cleaning finsihedÔºÅ
 echo. & pause
